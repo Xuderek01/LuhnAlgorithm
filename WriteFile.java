@@ -18,7 +18,7 @@ public class WriteFile{
         }*/
 
         try{
-            File myText = new File("filename.txt");
+            File myText = new File("filename.txt"); //Derek Xu
             Scanner myReader = new Scanner(myText);
             while (myReader.hasNextLine()){
                 String data = myReader.nextLine();
